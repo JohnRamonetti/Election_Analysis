@@ -17,11 +17,11 @@
 # if "A" not in counties:
 #     print("A is not in counties")
 # else:
-#     print("Blah")
+# #     print("Blah")
               
-counties_dict = {"Arapahoe":422829,"Denver":463353,"Jefferson":432438}
+# counties_dict = {"Arapahoe":422829,"Denver":463353,"Jefferson":432438}
 
-for county in counties_dict.keys():
-    print(county)
+# for county in counties_dict.keys():
+#     print(county)
 
    

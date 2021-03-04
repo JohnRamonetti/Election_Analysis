@@ -1,6 +1,6 @@
 # Election Analysis
 
-## Project Overview
+## Overview of Election Audit
 We have been asked to perform an audit of the [election results](Resources/election_results.csv) of a recent Colorado congressional election.  The goal is to see if we can use Python to automate this process in an efficient manner that can then be used on a much broader scale.  A Colorado Board of Elections employee has asked to include the following information in our election audit results.  
  1. The total number of votes cast
  2. A complete list of candidates who received votes
@@ -17,7 +17,7 @@ A secondary/ followup task was added requesting that we include the following ad
 - Data Source: election_results.csv
 - Software: Python 3.7.7, Visual Studio Code 1.53.2
 
-## Summary of [Results](Analysis/election_analysis.txt)
+## Election-Audit [Results](Analysis/election_analysis.txt)
 
 The [analysis](Analysis/screenshots/text_output.png) of the election shows that:
 - There were 369,711 votes cast in the election.
@@ -46,6 +46,6 @@ The analysis shows the following for the secondary/followup task:
      -  Denver.
 
 
-## Summary and Statement of Broader Application
+## Election-Audit Summary and Statement of Broader Application
 
 ### I think the Election Commission would be wise to consider using this Python approach to analyze, and record, election results on a much broader basis.  The algorithm used herein can be easily adapted to any election, and with python's ability to speedily process large quantities of data, the size of the election (i.e., vote count) is not an issue.  The output of this initial audit was designed to print to the [terminal](Analysis/screenshots/terminal_output.png) and to a [text file](Analysis/screenshots/text_output.png).  The [output here is just formatted text](Analysis/screenshots/Output_is_formatted_text.png).  To expand the utility of the algorithm, we'd send output to, for example, a .csv file rather than a [text file](Analysis/screenshots/save_to_text_file.png), so the analysis results are more accessible and easily tabulated at any time.  This would require some relatively simple changes to the [objects and variables used within the program](Analysis/screenshots/text_file_and_variables.png).  We would change our approach to use more complex arrays, such as lists of dictionaries, to store results for output to the .csv files rather than just to read raw data from our input file. Naturally, the code would also have to then include an additional loop to write to a .csv.

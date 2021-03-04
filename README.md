@@ -1,7 +1,7 @@
 # Election Analysis
 
 ## Project Overview
-We have been asked to perform an audit of the election results of a recent Colorado congressional election.  The goal is to see if we can use Python to automate this process in an efficient manner that can then be used on a much broader scale.  A Colorado Board of Elections employee has asked to include the following information in our election audit results.  
+We have been asked to perform an audit of the [election results](Resources/election_results.csv) of a recent Colorado congressional election.  The goal is to see if we can use Python to automate this process in an efficient manner that can then be used on a much broader scale.  A Colorado Board of Elections employee has asked to include the following information in our election audit results.  
  1. The total number of votes cast
  2. A complete list of candidates who received votes
  3. The percentage of votes each candidate won

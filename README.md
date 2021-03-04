@@ -17,7 +17,7 @@ A secondary/ followup task was added requesting that we include the following ad
 - Data Source: election_results.csv
 - Software: Python 3.7.7, Visual Studio Code 1.53.2
 
-## Summary of Results
+## Summary of [Results]((Analysis/screenshots/text_output.png))
 
 The analysis of the election shows that:
 - There were 369,711 votes cast in the election.
